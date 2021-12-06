@@ -1,0 +1,31 @@
+.nseList {
+  flex: 4;
+  background-color: rgb(251, 251, 255);
+  padding: 20px;
+}
+.nseBid {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px !important;
+}
+
+.nseBidbtn {
+  border: none;
+  border-radius: 10px;
+  background-color: #f10b58;
+  color: white;
+  cursor: pointer;
+}
+.nseAsk {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px !important;
+}
+
+.nseAskbtn {
+  border: none;
+  border-radius: 10px;
+  background-color: #0bf11e;
+  color: white;
+  cursor: pointer;
+}

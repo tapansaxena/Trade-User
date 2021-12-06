@@ -1,0 +1,31 @@
+.mcxList {
+  flex: 4;
+  background-color: rgb(251, 251, 255);
+  padding: 20px;
+}
+.mcxBid {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px !important;
+}
+
+.mcxBidbtn {
+  border: none;
+  border-radius: 10px;
+  background-color: #f10b58;
+  color: white;
+  cursor: pointer;
+}
+.mcxAsk {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px !important;
+}
+
+.mcxAskbtn {
+  border: none;
+  border-radius: 10px;
+  background-color: #0bf11e;
+  color: white;
+  cursor: pointer;
+}

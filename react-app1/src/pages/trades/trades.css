@@ -1,0 +1,62 @@
+.tradesList {
+  flex: 4;
+  padding: 20px;
+  background-color: rgb(251, 251, 255);
+}
+
+.tradehead {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(18, 100, 223);
+}
+.tradeOrdersTitle {
+  flex: 1;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  padding: 10px;
+}
+
+.tradebody {
+  align-items: center;
+  display: flex;
+  height: auto;
+  width: 100%;
+  background-color: rgb(240, 240, 255);
+}
+
+.pendingOrders {
+  flex: 1;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.activeOrders {
+  flex: 1;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.closedOrders {
+  flex: 1;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 100vh;
+  position: sticky;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.v2 {
+  border-left: 6px solid white;
+  height: 100vh;
+  position: sticky;
+  left: 50%;
+  margin-left: -3px;
+}
